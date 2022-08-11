@@ -10,7 +10,6 @@ import UIKit
 class ViewController:
     UIViewController {
     
-  
     
     @IBOutlet weak var coldeLight: UILabel!
     
@@ -41,6 +40,16 @@ class ViewController:
         beRich.isHidden = true
         theCall.isHidden = true
     }
+    
+    @IBAction func buttonTapped1(_ sender: UIButton) {
+        coldeLight.isHidden = false
+        cryLabel.isHidden = false
+        egyptTravel.isHidden = false
+        beRich.isHidden = false
+        theCall.isHidden = false
+        
+    }
+    
     
 }
 
